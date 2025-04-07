@@ -3,4 +3,5 @@ export enum BaseStreamBlockTypes {
   HERO = 'HERO',
   FEATURES = 'FEATURES',
   CONTACT = 'CONTACT',
+  FOOTER = 'FOOTER',
 }

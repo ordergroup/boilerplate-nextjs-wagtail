@@ -1,6 +1,7 @@
 import { BaseStreamBlockTypes } from '@/components/BaseStreamBlock/BaseStreamBlock.types';
 import { ContactBlock } from '@/components/BaseStreamBlock/ContactBlock';
 import { FeaturesBlock } from '@/components/BaseStreamBlock/FeaturesBlock';
+import { FooterBlock } from '@/components/BaseStreamBlock/FooterBlock';
 import { HeaderBlock } from '@/components/BaseStreamBlock/HeaderBlock';
 import { HeroBlock } from '@/components/BaseStreamBlock/HeroBlock';
 
@@ -20,6 +21,8 @@ const Block = ({ blockType, blockVariant }: BlockProps) => {
       return <HeroBlock variant={blockVariant} />;
     case BaseStreamBlockTypes.FEATURES:
       return <FeaturesBlock variant={blockVariant} />;
+    case BaseStreamBlockTypes.FOOTER:
+      return <FooterBlock variant={blockVariant} />;
     default:
       console.error(`Unknown block type: ${blockType}`);
       return <div>Unknown block type: {blockType}</div>;

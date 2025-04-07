@@ -4,4 +4,5 @@ export const CONFIG = {
     process.env.NEXT_PUBLIC_ENABLE_MOCKS || 'false',
   ),
   mswPrefix: '/api',
+  placeholderImage: 'images/placeholder.svg',
 };

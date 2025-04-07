@@ -16,25 +16,35 @@ const getPageDetails = async (): Promise<{
   return {
     blocks: [
       {
-        blockType: BaseStreamBlockTypes.HEADER,
-        blockVariant: '1',
+        blockType: BaseStreamBlockTypes.FEATURES,
+        blockVariant: '7',
         id: '1',
       },
-      {
-        blockType: BaseStreamBlockTypes.HERO,
-        blockVariant: '1',
-        id: '2',
-      },
-      {
-        blockType: BaseStreamBlockTypes.FEATURES,
-        blockVariant: '1',
-        id: '3',
-      },
-      {
-        blockType: BaseStreamBlockTypes.CONTACT,
-        blockVariant: '1',
-        id: '4',
-      },
+      // {
+      //   blockType: BaseStreamBlockTypes.HEADER,
+      //   blockVariant: '2',
+      //   id: '1',
+      // },
+      // {
+      //   blockType: BaseStreamBlockTypes.HEADER,
+      //   blockVariant: '3',
+      //   id: '1',
+      // },
+      // {
+      //   blockType: BaseStreamBlockTypes.HERO,
+      //   blockVariant: '1',
+      //   id: '2',
+      // },
+      // {
+      //   blockType: BaseStreamBlockTypes.FEATURES,
+      //   blockVariant: '1',
+      //   id: '3',
+      // },
+      // {
+      //   blockType: BaseStreamBlockTypes.CONTACT,
+      //   blockVariant: '1',
+      //   id: '4',
+      // },
     ],
   };
 };
